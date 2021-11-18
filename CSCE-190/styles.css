@@ -2,19 +2,38 @@ body{
     background:rgba(99, 136, 136, 0.829);
     font-family: 'Times New Roman', Times, serif;
 }
-
 .assignment {
-    display:flex;
     margin: 9px;
+    padding:9px;
     background-color: rgb(208, 238, 201);
+    width: 23%;
+    border-radius: 7px;
 }
 
 .assignment img {
     width: 257px;
-    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    display:block;
+    margin: auto;
 }
 
 h1{
     color: rgb(0, 0, 0);
     text-align: center;
+}
+.assignments{
+    display:flex;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+h2{
+    text-align: center;
+    
+}
+a:hover{
+    color:white;
 }
